@@ -1,0 +1,122 @@
+
+.login-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+}
+
+.addlogin-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 60rem;
+  height: 50rem;
+  max-width: 90%;
+  overflow:auto;
+}
+.showlogin-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #0000001a;
+  width: 70rem;
+  height: 45rem;
+  max-width: 90%;
+  overflow: auto;
+  position: relative; /* Added to position the remove icon relative to this container */
+}
+
+.showremove-icon {
+  font-size: large;
+  position: absolute;
+  margin-right: 40rem;
+  cursor: pointer; /* Added cursor pointer for better UX */
+}
+.login-container {
+  background: white;
+  padding: 2rem;
+  width: 100rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+.searchfield{
+  position:absolute;
+  width:100rem;
+  height:8rem;
+  margin-top: -30rem;
+}
+.cities{
+  width: 10rem;
+  height: 13rem;
+  
+}
+.header{
+  font-size: 2rem;
+  margin-left: 50rem;
+}
+.search-icon{
+  font-size: 1.7rem;
+}
+.input-field{
+  width:50rem;
+  height:3rem;
+  font-size: 1.7rem;
+  
+}
+.icon-large {
+  font-size: 2.5rem; 
+}
+.down-large{
+  font-size: 1.7rem;
+}
+.movielist{
+  height: 38rem;
+  width: 28rem;
+  border-radius: 2rem;
+}
+.deletelogin-overlay{
+  position: absolute;
+  margin-top: 0rem;
+  left: 25rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  width: 20rem;
+   height: 15rem; 
+   border: 0.00001rem solid black;
+   border-radius:2rem;
+   cursor: pointer;
+}
+.no_theater{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+}
+.confirmdelete_container{
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 40rem;
+  height: 20rem;
+  max-width: 90%;
+  overflow:auto;
+}

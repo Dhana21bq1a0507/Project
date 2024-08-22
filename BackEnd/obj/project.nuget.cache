@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J/KvfNo+2eA=",
+  "dgSpecHash": "Z3aEJpsYy9g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\allac\\Onedrive\\documents\\angular\\project\\BackEnd\\Example.csproj",
+  "projectFilePath": "C:\\Users\\allac\\Onedrive\\documents\\angular\\project\\backend\\Example.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\allac\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\allac\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

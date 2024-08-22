@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\allac\\Onedrive\\documents\\angular\\project\\BackEnd\\Example.csproj": {}
+    "C:\\Users\\allac\\Onedrive\\documents\\angular\\project\\backend\\Example.csproj": {}
   },
   "projects": {
-    "C:\\Users\\allac\\Onedrive\\documents\\angular\\project\\BackEnd\\Example.csproj": {
+    "C:\\Users\\allac\\Onedrive\\documents\\angular\\project\\backend\\Example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\allac\\Onedrive\\documents\\angular\\project\\BackEnd\\Example.csproj",
+        "projectUniqueName": "C:\\Users\\allac\\Onedrive\\documents\\angular\\project\\backend\\Example.csproj",
         "projectName": "Example",
-        "projectPath": "C:\\Users\\allac\\Onedrive\\documents\\angular\\project\\BackEnd\\Example.csproj",
+        "projectPath": "C:\\Users\\allac\\Onedrive\\documents\\angular\\project\\backend\\Example.csproj",
         "packagesPath": "C:\\Users\\allac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\allac\\Onedrive\\documents\\angular\\project\\BackEnd\\obj\\",
+        "outputPath": "C:\\Users\\allac\\Onedrive\\documents\\angular\\project\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\allac\\AppData\\Roaming\\NuGet\\NuGet.Config"

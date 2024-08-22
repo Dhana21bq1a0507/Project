@@ -1,0 +1,103 @@
+.displaytheatre {
+  width: 120rem;
+  height: 10rem;
+}
+
+.displayseats {
+  width: 100rem;
+  height: 50rem;
+  margin-left: 10rem;
+}
+
+.seat {
+  width: 3rem;
+  height: 3rem;
+  border: 0.1rem solid green;
+  text-align: center;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  cursor: pointer;
+  color: green;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.seat:hover {
+  background-color: green; /* Background color changes to green on hover */
+  color: white; /* Optional: Change text color to white for better contrast */
+}
+
+.seatrow {
+  display: flex;
+  flex-direction: row;
+}
+.selected {
+  background-color: green;
+  color: white;            
+}
+.booked{
+  background-color: gray;
+  color: gray;
+}
+.bottomdiv{
+  width:100rem;
+  height:6rem;
+  position:absolute;
+}
+.displaybookbtn{
+  display: flex;
+  flex-direction: row;
+}
+.bookbtn{
+  width:13rem;
+  height:5rem;
+  background-color: red;
+  color: white;
+  margin-left: -20rem;
+ 
+}
+
+.login-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+}
+.confirmbooking_container{
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 60rem;
+  height: 30rem;
+  max-width: 90%;
+  overflow:auto;
+}
+.bottomdiv{
+  width: 121.5rem;
+  height: 4rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display:flex;
+  flex-direction: row;
+border-radius: 0.4rem;
+}
+.bottomnav {
+  width: 3rem;
+  height: 2.5rem;
+  border: 0.1rem solid green;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.4rem;
+
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}

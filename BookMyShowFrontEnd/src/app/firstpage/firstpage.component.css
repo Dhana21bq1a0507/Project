@@ -1,0 +1,96 @@
+.icon-large {
+  font-size: 2.8rem; /* Adjust this value to the desired size */
+}
+
+.search-icon {
+  font-size: 1.7rem;
+}
+
+.input-field {
+  width: 50rem;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+
+
+.emailicon {
+  font-size: 3rem;
+}
+
+.input-field-login {
+  width: 17rem;
+  height: 5rem;
+  font-size: 2rem;
+}
+
+.inputfie {
+  margin-top: 4rem;
+  width: 40rem;
+  margin-left: 5rem;
+}
+
+.signinlogin {
+  margin-left: 20rem;
+  margin-top: 4rem;
+}
+
+.removeicon {
+  font-size: 2.5rem;
+}
+
+.login-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.login-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 55rem;
+  height: 45rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+.login-header .removeicon {
+  cursor: pointer;
+  font-size: 2rem;
+  margin-top: -8rem;
+  margin-right: 2rem;
+}
+
+.custom-input-height .input-group {
+  height: 4rem; /* Match this value with the input height */
+  line-height: 3rem; /* Center the icon vertically */
+}
+.logindiv{
+  width:50rem;
+  height:35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.admindiv{
+  width:50rem;
+  height:35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,121 @@
+.container-fluid {
+  padding: 0;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 48rem; /* Ensure the height is consistent */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.overlay-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30rem;
+  margin-left: 3rem;
+  border-color: white;
+}
+.logo-image {
+  width: 100%;
+  height: 37rem;
+}
+
+
+.row {
+  width: 100%;
+}
+.confirmdelete_container {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50rem;
+  height: 40rem;
+  max-width: 90%;
+  overflow: auto;
+  position: relative; /* Ensure close icon is positioned correctly */
+}
+
+.custom-video-container {
+  position: relative;
+  width: 80%;
+  height: 0;
+  padding-top: 40%; 
+  margin-left:12rem;
+}
+.custom-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.circle-image {
+  width: 150px; /* Set the desired width */
+  height: 150px; /* Set the desired height */
+  border-radius: 50%;
+  object-fit: cover; /* Ensures the image covers the entire circle without distortion */
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+hr {
+  margin: 20px 0;
+}
+.login-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+}
+.showlogin-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #0000001a;
+  width: 70rem;
+  height: 45rem;
+  max-width: 90%;
+  overflow: auto;
+  position: relative; /* Added to position the remove icon relative to this container */
+}
+.no_theater{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+}
